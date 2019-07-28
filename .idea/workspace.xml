@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b1d11e7-9101-4b5f-af12-c3e6567c0419" name="Default Changelist" comment="- For some reason, most of the Navigation files did not get pushed along">
+    <list default="true" id="9b1d11e7-9101-4b5f-af12-c3e6567c0419" name="Default Changelist" comment="- For some reason, most of the Navigation files did not get pushed along with the previous commit.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -12,12 +12,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Truong-OCU &lt;diane.m.truong@eagles.oc.edu&gt;" />
         <option value="Truong-OCU" />
         <option value="diane.m.truong@eagles.oc.edu" />
       </list>
@@ -26,8 +26,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="589" />
-    <option name="y" value="444" />
+    <option name="x" value="601" />
+    <option name="y" value="664" />
     <option name="width" value="1294" />
     <option name="height" value="637" />
   </component>
@@ -38,7 +38,28 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Summer-Project-II" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Summer-Project-II" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Summer-Project-II" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Summer-Project-II" type="462c0819:PsiDirectoryNode" />
+              <item name="summer-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Summer-Project-II" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Summer-Project-II" type="462c0819:PsiDirectoryNode" />
+              <item name="summer-project" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -83,13 +104,20 @@
       <option name="project" value="LOCAL" />
       <updated>1564129215634</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- For some reason, most of the Navigation files did not get pushed along with the previous commit.">
+      <created>1564281171067</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564281171067</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1426" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1263911" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16136725" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -118,7 +146,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- Uploaded Navigation Bar files" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Uploaded Navigation Bar files" />
+    <MESSAGE value="- For some reason, most of the Navigation files did not get pushed along with the previous commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="- For some reason, most of the Navigation files did not get pushed along with the previous commit." />
   </component>
   <component name="masterDetails">
     <states>
