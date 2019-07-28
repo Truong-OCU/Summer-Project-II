@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b1d11e7-9101-4b5f-af12-c3e6567c0419" name="Default Changelist" comment="- Uploaded Navigation Bar files">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/summer-project/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/summer-project/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/summer-project/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/summer-project/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/summer-project/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/summer-project/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/yarn.lock" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,9 +40,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="574" />
-    <option name="y" value="160" />
+    <option name="y" value="792" />
     <option name="width" value="1294" />
-    <option name="height" value="1269" />
+    <option name="height" value="637" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -37,8 +50,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Summer-Project-II" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Summer-Project-II" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Summer-Project-II" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Summer-Project-II" type="462c0819:PsiDirectoryNode" />
+              <item name="summer-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -76,22 +104,26 @@
       <option name="project" value="LOCAL" />
       <updated>1564116782818</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- Uploaded Navigation Bar files">
+      <created>1564129215634</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564129215634</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="689" y="370" width="1294" height="1269" extended-state="0" />
+    <frame x="574" y="792" width="1294" height="637" extended-state="0" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959481" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25769854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -99,14 +131,17 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">

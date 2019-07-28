@@ -1,37 +1,41 @@
 {
-  "name": "summer-project",
-  "version": "0.1.0",
+  "name": "tabler-react-example",
+  "homepage": "https://tabler-react.com",
+  "version": "0.0.0",
   "private": true,
+  "license": "MIT",
   "dependencies": {
-    "react": "^16.8.6",
-    "react-art": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-native": "^0.60.4",
-    "react-native-web": "^0.11.5",
-    "react-navigation": "^3.11.1",
-    "react-router-dom": "^5.0.1",
-    "react-router-native": "^5.0.1",
-    "react-scripts": "^3.0.1"
+    "classnames": "^2.2.6",
+    "d3-scale": "^3.0.0",
+    "eslint": "5.12.0",
+    "formik": "^1.0.2",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-c3js": "^0.1.20",
+    "react-dom": "^16.2.0",
+    "react-google-maps": "^9.4.5",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^2.0.3",
+    "react-simple-maps": "^0.12.0",
+    "react-syntax-highlighter": "^10.0.0",
+    "refractor": "^2.6.1",
+    "tabler-react": "^1.30.1",
+    "webpack": "4.28.3"
   },
   "scripts": {
     "start": "react-scripts start",
+    "watch": "react-scripts start --watch",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "devDependencies": {},
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
