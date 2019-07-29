@@ -7,48 +7,48 @@ import {} from 'material-icons';
 export default function App() {
     const [state, setState] = React.useState({
         columns: [
-            { title: 'Event #', field: 'eventNumber', type: 'numeric' },
-            { title: 'Customer', field: 'customer' },
-            { title: 'Event', field: 'eventType' },
-            { title: 'Date', field: 'date' },
-            { title: 'Time', field: 'time', },
+            { title: 'Last Name', field: 'lastName' },
+            { title: 'First Name', field: 'firstName' },
+            { title: 'Phone', field: 'phone' },
+            { title: 'Email', field: 'email' },
+            { title: 'Address', field: 'address', },
         ],
         data: [{
-                eventNumber: '1235',
-                customer: 'Mike Bickers',
-                eventType: 'Meeting',
-                date: '05/05/20',
-                time: '4:00',
+                lastName: 'Bickers',
+                firstName: 'Wayne',
+                phone: '(123) 546-7891',
+                email: 'wbickers@gmail.com',
+                address: '10th Street',
             },
 
             {
-                eventNumber: '1236',
-                customer: 'David Slaughter',
-                eventType: 'Meeting',
-                date: '05/19/20',
-                time: '1:00',
+                lastName: 'Wayne',
+                firstName: 'Bob',
+                phone: '(586) 781-9465',
+                email: 'bwayne@gmail.com',
+                address: '11th Street',
             },
 
             {
-                eventNumber: '1237',
-                customer: 'Mark Payne',
-                eventType: 'Wedding',
-                date: '05/18/20',
-                time: '2:00',
+                lastName: 'Payne',
+                firstName: 'Dillon',
+                phone: '(789) 621-2351',
+                email: 'dpayne@gmail.com',
+                address: '12th Street',
             },
 
             {
-                eventNumber: '1239',
-                customer: 'Bob Dewey',
-                eventType: 'Wedding',
-                date: '05/05/20',
-                time: '5:30',
+                lastName: 'Howe',
+                firstName: 'Mike',
+                phone: '(123) 369-3275',
+                email: 'mhowe@gmail.com',
+                address: '13th Street',
             },
         ],
     });
 
     return ( <
-        MaterialTable title = "Events"
+        MaterialTable title = "Customers"
         columns = { state.columns }
         data = { state.data }
         editable = {
