@@ -1,11 +1,14 @@
-import React from 'react';
-import './App.css';
+// @flow
 
+import * as React from "react";
+import './App.css';
+import { Page } from "tabler-react";
+import SiteWrapper from "./SiteWrapper.react";
 import MaterialTable from 'material-table';
 import {} from 'material-icons';
 
-export default function App() {
-    const [state, setState] = React.useState({
+function Events() {
+	    const [state, setState] = React.useState({
         columns: [
             { title: 'Event #', field: 'eventNumber', type: 'numeric' },
             { title: 'Customer', field: 'customer' },
@@ -46,13 +49,16 @@ export default function App() {
             },
         ],
     });
-
-    return ( <
-        MaterialTable title = "Events"
-        columns = { state.columns }
-        data = { state.data }
-        editable = {
-            {
+	
+  return (
+    <SiteWrapper>
+		<Page.Content>
+			<
+			MaterialTable title = "Events"
+			columns = { state.columns }
+			data = { state.data }
+			editable = {
+				{
                 onRowAdd: newData =>
                     new Promise(resolve => {
                         setTimeout(() => {
@@ -80,8 +86,12 @@ export default function App() {
                             setState({...state, data });
                         }, 600);
                     }),
-            }
-        }
-        />
-    );
+				}
+			}
+			/>
+		</Page.Content>
+    </SiteWrapper>
+  );
 }
+
+export default Events;
