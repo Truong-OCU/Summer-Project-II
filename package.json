@@ -1,6 +1,5 @@
 {
-  "name": "tabler-react-example",
-  "homepage": "https://tabler-react.com",
+  "name": "Eagles-Event-Planning-Service",
   "version": "0.0.0",
   "private": true,
   "license": "MIT",
@@ -9,6 +8,8 @@
     "d3-scale": "^3.0.0",
     "eslint": "5.12.0",
     "formik": "^1.0.2",
+    "material-icons": "^0.3.1",
+    "material-table": "^1.40.1",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-c3js": "^0.1.20",
