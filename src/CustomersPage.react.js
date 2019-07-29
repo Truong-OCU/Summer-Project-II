@@ -1,11 +1,15 @@
-import React from 'react';
-import './App.css';
+// @flow
 
+import * as React from "react";
+import './App.css';
+import { Page, Card, Grid, Form, Button, Dropdown } from "tabler-react";
+
+import SiteWrapper from "./SiteWrapper.react";
 import MaterialTable from 'material-table';
 import {} from 'material-icons';
 
-export default function App() {
-    const [state, setState] = React.useState({
+function Customers() {
+	    const [state, setState] = React.useState({
         columns: [
             { title: 'Last Name', field: 'lastName' },
             { title: 'First Name', field: 'firstName' },
@@ -46,13 +50,15 @@ export default function App() {
             },
         ],
     });
-
-    return ( <
-        MaterialTable title = "Customers"
-        columns = { state.columns }
-        data = { state.data }
-        editable = {
-            {
+  return (
+    <SiteWrapper>
+		<Page.Content>
+			<
+			MaterialTable title = "Customers"
+			columns = { state.columns }
+			data = { state.data }
+			editable = {
+				{
                 onRowAdd: newData =>
                     new Promise(resolve => {
                         setTimeout(() => {
@@ -80,8 +86,12 @@ export default function App() {
                             setState({...state, data });
                         }, 600);
                     }),
-            }
-        }
-        />
-    );
+				}
+			}
+			/>
+		</Page.Content>
+    </SiteWrapper>
+  );
 }
+
+export default Customers;

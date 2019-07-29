@@ -3,6 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="9b1d11e7-9101-4b5f-af12-c3e6567c0419" name="Default Changelist" comment="- For some reason, most of the Navigation files did not get pushed along with the previous commit.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/src/App.react.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/src/CustomersPage.react.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/src/EventsPage.react.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/src/SiteWrapper.react.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/src/UsersPage.react.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/src/c3jscustom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/src/pages/400.react.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/src/pages/401.react.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/src/pages/403.react.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/src/pages/404.react.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/src/pages/500.react.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/src/pages/503.react.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summer-project/src/pages/index.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,10 +48,15 @@
     </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="601" />
-    <option name="y" value="664" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="978" />
+    <option name="y" value="228" />
     <option name="width" value="1294" />
     <option name="height" value="637" />
   </component>
@@ -38,6 +67,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -45,27 +75,15 @@
               <item name="Summer-Project-II" type="b2602c69:ProjectViewProjectNode" />
               <item name="Summer-Project-II" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Summer-Project-II" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Summer-Project-II" type="462c0819:PsiDirectoryNode" />
-              <item name="summer-project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Summer-Project-II" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Summer-Project-II" type="462c0819:PsiDirectoryNode" />
-              <item name="summer-project" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Summer Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -115,9 +133,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1426" extended-state="6" />
+    <frame x="978" y="228" width="1294" height="637" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16136725" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33144248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
