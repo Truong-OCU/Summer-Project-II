@@ -58,7 +58,7 @@ const accountDropdownProps = {
     { icon: "user", value: "Profile" },
     { icon: "settings", value: "Settings" },
     { isDivider: true },
-    { icon: "log-out", value: "Sign out" },
+    { icon: "log-out", value: "Sign out", to: "/", LinkComponent: withRouter(NavLink), },
   ],
 };
 

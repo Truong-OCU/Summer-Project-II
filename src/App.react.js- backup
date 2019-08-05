@@ -9,11 +9,9 @@ import {
   Error503,
 } from "./pages";
 
-import LoginPage from "./LoginPage.react";
 import EventsPage from "./EventsPage.react";
 import CustomersPage from "./CustomersPage.react";
 import UsersPage from "./UsersPage.react";
-
 
 import "tabler-react/dist/Tabler.css";
 
@@ -24,14 +22,13 @@ function App(props: Props): React.Node {
     <React.StrictMode>
       <Router>
         <Switch>
-          <Route exact path="/" component={LoginPage} /> // TEST HERE
+          <Route exact path="/" component={EventsPage} />
           <Route exact path="/400" component={Error400} />
           <Route exact path="/401" component={Error401} />
           <Route exact path="/403" component={Error403} />
           <Route exact path="/404" component={Error404} />
           <Route exact path="/500" component={Error500} />
           <Route exact path="/503" component={Error503} />
-		  <Route exact path="/events" component={EventsPage} /> // TEST HERE
           <Route exact path="/customers" component={CustomersPage} />
           <Route exact path="/users" component={UsersPage} />
           <Route component={Error404} />
