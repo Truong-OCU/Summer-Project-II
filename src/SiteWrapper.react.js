@@ -34,7 +34,7 @@ type navItem = {|
 const navBarItems: Array<navItem> = [
   {
     value: "Events",
-    to: "/",
+    to: "/events",
     LinkComponent: withRouter(NavLink),
     useExact: true,
   },
@@ -48,6 +48,11 @@ const navBarItems: Array<navItem> = [
     to: "/users",
     LinkComponent: withRouter(NavLink),
   },
+  {
+    value: "Account Management",
+    to: "/accmanagement",
+    LinkComponent: withRouter(NavLink),
+  },
 ];
 
 const accountDropdownProps = {
@@ -55,10 +60,8 @@ const accountDropdownProps = {
   name: "Username Here",
   description: "User Role Here",
   options: [
-    { icon: "user", value: "Profile" },
-    { icon: "settings", value: "Settings" },
     { isDivider: true },
-    { icon: "log-out", value: "Sign out" },
+    { icon: "log-out", value: "Sign out", to: "/", LinkComponent: withRouter(NavLink) },
   ],
 };
 
