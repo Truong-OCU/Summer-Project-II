@@ -6,6 +6,7 @@ import { Page } from "tabler-react";
 import SiteWrapper from "./SiteWrapper.react";
 import MaterialTable from 'material-table';
 import {} from 'material-icons';
+import Table from "./Table";
 
 function Events() {
 	    const [state, setState] = React.useState({

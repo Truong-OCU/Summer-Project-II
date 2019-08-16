@@ -3,7 +3,7 @@
 import * as React from "react";
 import { Page, Grid, GalleryCard, Form } from "tabler-react";
 import SiteWrapper from "./SiteWrapper.react";
-
+import Table from "./Table";
 import './App.css';
 import MaterialTable from 'material-table';
 import {} from 'material-icons';
@@ -13,35 +13,45 @@ function UsersPage() {
         columns: [
             { title: 'Last Name', field: 'lastName' },
             { title: 'First Name', field: 'firstName' },
+			{ title: 'username', field: 'username' },
             { title: 'Email', field: 'email' },
             { title: 'Admin', field: 'admin' },
+			{ title: 'Active', field: 'isActive' },
         ],
         data: [{
                 lastName: 'McCartney',
                 firstName: 'Paul',
+				username: 'PaulMC',
                 email: 'paulmcc@gmail.com',
                 admin: 'true',
+				isActive: 'true',
             },
 
             {
                 lastName: 'Lennon',
                 firstName: 'John',
+				username: 'JLen',
                 email: 'johnlen@gmail.com',
                 admin: 'true',
+				isActive: 'true',
             },
 
             {
                 lastName: 'Starr',
                 firstName: 'Ringo',
+				username: 'Starrr',
                 email: 'ringosta@gmail.com',
                 admin: 'false',
+				isActive: 'true',
             },
 
             {
                 lastName: 'Harrison',
                 firstName: 'George',
-                email: 'georgehar@gmail.com',
+				username: 'Harrig',
+				email: 'georgehar@gmail.com',
                 admin: 'false',
+				isActive: 'true',
             },
         ],
     });
@@ -49,6 +59,12 @@ function UsersPage() {
   return (
     <SiteWrapper>
 		<Page.Content>
+			<div>
+				<h3>Table Testing Starts Here</h3>
+				<Table/>
+				<h3>Table Testing Ends Here </h3>
+			</div>
+		
 			<
 			MaterialTable title = "Users"
 			columns = { state.columns }

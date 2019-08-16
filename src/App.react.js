@@ -12,6 +12,9 @@ import {
 import EventsPage from "./EventsPage.react";
 import CustomersPage from "./CustomersPage.react";
 import UsersPage from "./UsersPage.react";
+import LoginPage from "./LoginPage.react";
+import AccManagementPage from "./AccManagementPage.react";
+
 
 import "tabler-react/dist/Tabler.css";
 
@@ -22,7 +25,7 @@ function App(props: Props): React.Node {
     <React.StrictMode>
       <Router>
         <Switch>
-          <Route exact path="/" component={EventsPage} />
+          <Route exact path="/" component={LoginPage} />
           <Route exact path="/400" component={Error400} />
           <Route exact path="/401" component={Error401} />
           <Route exact path="/403" component={Error403} />
@@ -30,7 +33,9 @@ function App(props: Props): React.Node {
           <Route exact path="/500" component={Error500} />
           <Route exact path="/503" component={Error503} />
           <Route exact path="/customers" component={CustomersPage} />
+          <Route exact path="/events" component={EventsPage} />
           <Route exact path="/users" component={UsersPage} />
+		  <Route exact path="/accmanagement" component={AccManagementPage} />
           <Route component={Error404} />
         </Switch>
       </Router>

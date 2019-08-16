@@ -13,35 +13,45 @@ function Customers() {
         columns: [
             { title: 'Last Name', field: 'lastName' },
             { title: 'First Name', field: 'firstName' },
+			{ title: 'Address', field: 'address' },
+			{ title: 'Phone', field: 'phone' },
             { title: 'Email', field: 'email' },
-            { title: 'Admin', field: 'admin' },
+			{ title: 'Active', field: 'isActive' },
         ],
         data: [{
                 lastName: 'McCartney',
                 firstName: 'Paul',
+				address: 'North Street',
+				phone: '405-123-4567',
                 email: 'paulmcc@gmail.com',
-                admin: 'true',
+				isActive: 'True',
             },
 
             {
                 lastName: 'Lennon',
                 firstName: 'John',
+				address: 'South Street',
+				phone: '405-123-4567',				
                 email: 'johnlen@gmail.com',
-                admin: 'true',
+				isActive: 'True',
             },
 
             {
                 lastName: 'Starr',
                 firstName: 'Ringo',
+				address: 'East Street',
+				phone: '405-123-4567',
                 email: 'ringosta@gmail.com',
-                admin: 'false',
+				isActive: 'True',
             },
 
             {
                 lastName: 'Harrison',
                 firstName: 'George',
+				address: 'West Street',
+				phone: '405-123-4567',
                 email: 'georgehar@gmail.com',
-                admin: 'false',
+				isActive: 'True',
             },
         ],
     });
