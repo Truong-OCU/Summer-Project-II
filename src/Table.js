@@ -15,7 +15,8 @@ export default class Table extends React.Component {
 	// This is someone else's json that works.
 	state = { persons: [] }
 	componentDidMount() {
-		axios.get(`https://jsonplaceholder.typicode.com/users`)
+		//axios.get(`https://jsonplaceholder.typicode.com/users`)
+		axios.get(`https://eagleeventplanningapi.azurewebsites.net/ep/users`)
 		.then(res => {
 			const persons = res.data;
 			this.setState({ persons });

@@ -5,11 +5,10 @@ import './App.css';
 import { Page } from "tabler-react";
 import SiteWrapper from "./SiteWrapper.react";
 import MaterialTable from 'material-table';
-import {} from 'material-icons';
 import Table from "./Table";
 
 function Events() {
-	    const [state, setState] = React.useState({
+	const [state, setState] = React.useState({
         columns: [
             { title: 'Event #', field: 'eventNumber', type: 'numeric' },
             { title: 'Customer', field: 'customer' },
@@ -51,6 +50,12 @@ function Events() {
         ],
     });
 	
+	const styles = {
+	   backgroundColor: 'white',
+	   boxShadow: "1px 3px 1px #9E9E9E",
+	   padding: "5px",
+	}
+	
   return (
     <SiteWrapper>
 		<Page.Content>
@@ -90,6 +95,13 @@ function Events() {
 				}
 			}
 			/>
+			<div style={styles}>
+				<h1>PDF Testing</h1>
+				<p>Currently, it is unfinished. To generate the pdfs, within the project root, run the command "npx babel-node scripts/generate-pdf.js" and it should generate the pdfs right there. This feature will change later.</p>
+				<a href="/tablemarkers">Print Table Markers | </a>
+				<a href="/orderbyname">Print Ordered By Name | </a>
+				<a href="/orderbytable">Print Ordered By Table</a>
+			</div>
 		</Page.Content>
     </SiteWrapper>
   );

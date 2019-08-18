@@ -111,6 +111,8 @@ function LoginPage() {
 }
 export default LoginPage;
 
+// <Button color="primary" RootComponent="a" href="./events" onClick={handle}> Login </Button>
+
 
 // Original Login
 
