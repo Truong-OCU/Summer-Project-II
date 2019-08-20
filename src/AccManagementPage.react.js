@@ -14,12 +14,14 @@ function AccManagement() {
             { title: 'Last Name', field: 'lastName' },
             { title: 'First Name', field: 'firstName' },
             { title: 'Email', field: 'email' },
+			{ title: 'Password', field: 'password' },
             { title: 'Admin', field: 'admin' },
         ],
         data: [{
                 lastName: 'McCartney',
                 firstName: 'Paul',
                 email: 'paulmcc@gmail.com',
+				password: '****',
                 admin: 'true',
             }
         ],

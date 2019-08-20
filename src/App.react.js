@@ -14,8 +14,13 @@ import CustomersPage from "./CustomersPage.react";
 import UsersPage from "./UsersPage.react";
 import LoginPage from "./LoginPage.react";
 import AccManagementPage from "./AccManagementPage.react";
-
-
+import TableMarkers from "./TableMarkers.react";
+import OrderByName from "./OrderByName.react";
+import OrderByTable from "./OrderByTable.react";
+import AddEvent from "./AddEvent.react";
+import AddCustomer from "./AddCustomer.react";
+import AddUser from "./AddUser.react";
+import EventInfo from "./EventInfoPage.react";
 import "tabler-react/dist/Tabler.css";
 
 type Props = {||};
@@ -35,7 +40,14 @@ function App(props: Props): React.Node {
           <Route exact path="/customers" component={CustomersPage} />
           <Route exact path="/events" component={EventsPage} />
           <Route exact path="/users" component={UsersPage} />
-		  <Route exact path="/accmanagement" component={AccManagementPage} />
+          <Route exact path="/accmanagement" component={AccManagementPage} />
+          <Route exact path="/tablemarkers" component={TableMarkers} />
+          <Route exact path="/orderbytable" component={OrderByTable} />
+          <Route exact path="/orderbyname" component={OrderByName} />
+          <Route exact path="/addevent" component={AddEvent} />
+          <Route exact path="/addcustomer" component={AddCustomer} />
+          <Route exact path="/adduser" component={AddUser} />
+          <Route exact path="/eventinfo" component={EventInfo} />
           <Route component={Error404} />
         </Switch>
       </Router>
